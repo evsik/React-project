@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **/node_modules/
 .DS_Store
 **/.vs/
@@ -5,3 +6,4 @@
 **/.idea
 /node_modules/
 /Marks/
+>>>>>>> 206a37f893353935557428bd681389785aeab444
