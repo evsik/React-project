@@ -16,21 +16,17 @@ export default class MessageField extends Component {
                 {
                     sender: 'Darth Vader',
                     text: 'I am your father'
-                },
-                {
-                    sender: 'You',
-                    text: 'Hello'
-                },
-                {
-                    sender: 'You',
-                    text: 'Nooooooo'
                 }
             ]
         }
     }
 
     handleChange = evt => {
-        this.setState({text: evt.target.value});
+        if (evt.keyCode !== 13) {
+            this.setState({text: evt.target.value});
+        } else {
+            this.sendMessage();
+        }
     }
 
     sendMessage = () => {
@@ -74,6 +70,7 @@ export default class MessageField extends Component {
                         type="text"
                         value={this.state.text}
                         onChange={this.handleChange}
+                        onKeyUp={this.handleChange}
                     />
                     <button onClick={this.sendMessage}><i className="far fa-paper-plane"></i></button>
                 </div>
