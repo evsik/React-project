@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84ca35a-6205-4ae8-8d84-4742ee098f8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatsDialog/ChatsDialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatsDialog/ChatsDialog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Head/Head.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/Head.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Head/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MessageField/MessageField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField/MessageField.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessageField/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessageField/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
