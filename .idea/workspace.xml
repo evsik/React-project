@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c84ca35a-6205-4ae8-8d84-4742ee098f8c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Message/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Message/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessageField/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessageField/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField/scss/style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="c84ca35a-6205-4ae8-8d84-4742ee098f8c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +57,7 @@
       <workItem from="1599649697148" duration="9322000" />
       <workItem from="1599809512405" duration="6768000" />
       <workItem from="1599838367984" duration="4440000" />
-      <workItem from="1600593653617" duration="9661000" />
+      <workItem from="1600593653617" duration="9882000" />
     </task>
     <servers />
   </component>
