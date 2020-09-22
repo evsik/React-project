@@ -42,13 +42,15 @@ export default class MessageField extends Component {
 
     componentDidUpdate() {
         if (this.state.messages[this.state.messages.length - 1].sender !== 'Darth Vader') {
-            this.setState({
-                messages: [...this.state.messages, {
-                    sender: 'Darth Vader',
-                    text: "I'm your Father"
-                }
-                ]
-            })
+            setTimeout(() =>
+                    this.setState({
+                        messages: [...this.state.messages, {
+                            sender: 'Darth Vader',
+                            text: "I'm your Father"
+                        }
+                        ]
+                    }),
+                1000);
         }
     }
 
