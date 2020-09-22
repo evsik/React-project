@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84ca35a-6205-4ae8-8d84-4742ee098f8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Marks/material ui install.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChatsDialog/ChatsDialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChatsDialog/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm_install.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Marks/npm_install.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatList/ChatList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatList/ChatList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessageField/MessageField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField/MessageField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/Message.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Message/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessageField/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessageField/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MessageField/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +64,7 @@
       <workItem from="1599649697148" duration="9322000" />
       <workItem from="1599809512405" duration="6768000" />
       <workItem from="1599838367984" duration="4440000" />
-      <workItem from="1600593653617" duration="4878000" />
+      <workItem from="1600593653617" duration="9661000" />
     </task>
     <servers />
   </component>
