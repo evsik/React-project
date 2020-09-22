@@ -15,10 +15,12 @@ const container = document.getElementById('app')
 
 ReactDom.render(
     <StylesProvider>
-        <div>
+        <div className="main">
             <Head/>
-            <ChatList/>
-            <MessageField/>
+            <div className="d-flex justify-content-around">
+                <ChatList/>
+                <MessageField/>
+            </div>
         </div>
     </StylesProvider>,
 

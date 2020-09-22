@@ -6,6 +6,8 @@ import Message from '../Message/Message.jsx';
 export default class MessageField extends Component {
     constructor(props) {
         super(props);
+        // создадим ref в поле `textInput` для хранения DOM-элемента
+        this.textInput = React.createRef();
         this.state = {
             text: '',
             messages: [
@@ -40,15 +42,22 @@ export default class MessageField extends Component {
         });
     }
 
+    // Ставим фокус на <input> при монтировании компонента
+    componentDidMount() {
+        this.textInput.current.focus();
+    }
+
     componentDidUpdate() {
         if (this.state.messages[this.state.messages.length - 1].sender !== 'Darth Vader') {
-            this.setState({
-                messages: [...this.state.messages, {
-                    sender: 'Darth Vader',
-                    text: "I'm your Father"
-                }
-                ]
-            })
+            setTimeout(() =>
+                    this.setState({
+                        messages: [...this.state.messages, {
+                            sender: 'Darth Vader',
+                            text: "I'm your Father"
+                        }
+                        ]
+                    }),
+                1000);
         }
     }
 
@@ -67,7 +76,11 @@ export default class MessageField extends Component {
                 </div>
                 <div className="controls d-flex">
                     <input
+                        // описываем, что мы хотим связать ref <TextInput>
+                        // с `textInput` созданным в конструкторе
+
                         type="text"
+                        ref={ this.textInput }
                         value={this.state.text}
                         onChange={this.handleChange}
                         onKeyUp={this.handleChange}
