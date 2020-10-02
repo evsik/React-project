@@ -32,8 +32,11 @@
     "bootstrap": "^4.5.2",
     "fontsource-roboto": "^3.0.3",
     "jquery": "^3.5.1",
+    "material-ui": "^0.20.2",
     "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
   }
 }
