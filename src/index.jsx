@@ -9,15 +9,20 @@ import MuiThemeProvider from '@material-ui/styles/ThemeProvider/';
 
 import {StylesProvider, createGenerateClassName} from '@material-ui/core/styles';
 
+import {Provider} from "react-redux";
+import initStore from "./store";
 
 const container = document.getElementById('app');
 
 
 ReactDom.render(
-    <BrowserRouter>
-        <MuiThemeProvider>
-            <Router/>
-        </MuiThemeProvider>
-    </BrowserRouter>,
+    <Provider store={initStore()}>
+        <BrowserRouter>
+            <MuiThemeProvider>
+                <Router/>
+            </MuiThemeProvider>
+        </BrowserRouter>
+    </Provider>
+    ,
     container
 )
